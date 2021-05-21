@@ -4,9 +4,9 @@
     "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  templates/vendors~main.4dd0255d.js (245 KiB)"
   ],
   "version": "4.46.0",
-  "hash": "14d80622b16803541fa4",
-  "time": 16293,
-  "builtAt": 1621597608246,
+  "hash": "3df801743ddf3288c176",
+  "time": 17759,
+  "builtAt": 1621604149803,
   "publicPath": "/",
   "outputPath": "/usr/workspace/test-site/dist",
   "assetsByChunkName": {
@@ -18,7 +18,7 @@
     "main": "main.3c01093d.js",
     "styles": [
       "styles.9ee15f7d.css",
-      "templates/styles.dcef91b8.js"
+      "templates/styles.354afafc.js"
     ],
     "vendors~main": "templates/vendors~main.4dd0255d.js"
   },
@@ -122,7 +122,7 @@
       "emitted": true
     },
     {
-      "name": "templates/styles.dcef91b8.js",
+      "name": "templates/styles.354afafc.js",
       "size": 82,
       "chunks": [
         6
@@ -161,7 +161,7 @@
       ],
       "assets": [
         "styles.9ee15f7d.css",
-        "templates/styles.dcef91b8.js",
+        "templates/styles.354afafc.js",
         "templates/vendors~main.4dd0255d.js",
         "main.3c01093d.js"
       ],
@@ -178,7 +178,7 @@
       ],
       "assets": [
         "styles.9ee15f7d.css",
-        "templates/styles.dcef91b8.js",
+        "templates/styles.354afafc.js",
         "templates/vendors~main.4dd0255d.js",
         "main.3c01093d.js"
       ],
@@ -1457,9 +1457,9 @@
       ],
       "files": [
         "styles.9ee15f7d.css",
-        "templates/styles.dcef91b8.js"
+        "templates/styles.354afafc.js"
       ],
-      "hash": "5d45a2e4b9c696d61daa",
+      "hash": "73c77bb53823b896f286",
       "siblings": [
         5,
         7
@@ -1534,7 +1534,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 4,
-          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1621597599948\n      var cssReload = require(\"/usr/workspace/test-site/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"hmr\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1621604140788\n      var cssReload = require(\"/usr/workspace/test-site/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"hmr\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
         },
         {
           "id": "",
@@ -3461,9 +3461,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -4176,9 +4176,9 @@
           "chunks": [
             7
           ],
-          "issuer": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "issuerId": 59,
-          "issuerName": "../lib/bootstrapPlugins.js",
+          "issuer": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "issuerId": 112,
+          "issuerName": "../lib/bootstrapTemplates.js",
           "issuerPath": [
             {
               "id": 58,
@@ -4186,9 +4186,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             }
           ],
           "failed": false,
@@ -4301,9 +4301,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -4412,9 +4412,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -4865,9 +4865,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -6319,9 +6319,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -6390,9 +6390,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -6466,9 +6466,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -6532,9 +6532,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -6603,9 +6603,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -6669,9 +6669,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -6735,9 +6735,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -6811,9 +6811,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -6892,9 +6892,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -6968,9 +6968,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -7115,9 +7115,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -7196,9 +7196,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -7282,9 +7282,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -7358,9 +7358,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -7434,9 +7434,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9068,9 +9068,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9130,9 +9130,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9192,9 +9192,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9254,9 +9254,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9311,9 +9311,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9373,9 +9373,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9435,9 +9435,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9497,9 +9497,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9559,9 +9559,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9626,9 +9626,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9698,9 +9698,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9770,9 +9770,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9847,9 +9847,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9919,9 +9919,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -9996,9 +9996,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10078,9 +10078,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10155,9 +10155,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10232,9 +10232,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10314,9 +10314,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10396,9 +10396,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10473,9 +10473,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10550,9 +10550,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10617,9 +10617,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10684,9 +10684,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10751,9 +10751,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10813,9 +10813,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -10878,9 +10878,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 59,
-              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 112,
+              "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 9,
@@ -14492,9 +14492,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -15207,9 +15207,9 @@
       "chunks": [
         7
       ],
-      "issuer": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-      "issuerId": 59,
-      "issuerName": "../lib/bootstrapPlugins.js",
+      "issuer": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+      "issuerId": 112,
+      "issuerName": "../lib/bootstrapTemplates.js",
       "issuerPath": [
         {
           "id": 58,
@@ -15217,9 +15217,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         }
       ],
       "failed": false,
@@ -15332,9 +15332,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -15443,9 +15443,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -16043,9 +16043,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -17728,9 +17728,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -17799,9 +17799,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -17875,9 +17875,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -17941,9 +17941,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -18012,9 +18012,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -18078,9 +18078,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -18144,9 +18144,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -18220,9 +18220,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -18301,9 +18301,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -18377,9 +18377,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -18524,9 +18524,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -18605,9 +18605,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -18691,9 +18691,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -18767,9 +18767,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -18843,9 +18843,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -20908,9 +20908,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -20970,9 +20970,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21032,9 +21032,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21094,9 +21094,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21151,9 +21151,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21213,9 +21213,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21275,9 +21275,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21337,9 +21337,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21399,9 +21399,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21466,9 +21466,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21538,9 +21538,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21610,9 +21610,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21687,9 +21687,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21759,9 +21759,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21836,9 +21836,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21918,9 +21918,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -21995,9 +21995,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -22072,9 +22072,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -22154,9 +22154,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -22236,9 +22236,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -22313,9 +22313,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -22390,9 +22390,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -22457,9 +22457,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -22524,9 +22524,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -22591,9 +22591,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -22653,9 +22653,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -22718,9 +22718,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 59,
-          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 112,
+          "identifier": "/usr/workspace/test-site/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/usr/workspace/test-site/node_modules/react-hot-loader/webpack.js!/usr/workspace/test-site/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 9,
@@ -24672,7 +24672,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 4,
-      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1621597599948\n      var cssReload = require(\"/usr/workspace/test-site/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"hmr\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1621604140788\n      var cssReload = require(\"/usr/workspace/test-site/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"hmr\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
     },
     {
       "id": 130,

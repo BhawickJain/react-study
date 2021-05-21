@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{56:function(e,t,n){"use strict";n.r(t);var l=n(0),a=n.n(l);t.default=function(){return a.a.createElement("div",{style:{textAlign:"center"}},a.a.createElement("h1",null,"Welcome to React-Static"),a.a.createElement("p",null,"Hello World!"))}}}]);
