@@ -1,0 +1,17 @@
+version: "3.8"
+services:
+  react-app:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    volumes:
+      # overwrites node_modules installation with empty folder
+      - ./workspace:/usr/workspace
+      # overwrite node_modules directly from host with container
+      # enables access to node_modules installation in container
+      # creates an empty node_modules folder in host
+      - /usr/workspace/test-site/node_modules
+    working_dir: /usr/workspace
+    stdin_open: true
+    ports:
+      - 3000:3000

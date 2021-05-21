@@ -1,0 +1,8 @@
+FROM alpine:latest
+EXPOSE 3000
+RUN apk add --no-cache --update \
+ bash sudo npm tree
+WORKDIR /usr/workspace/test-site
+COPY ./workspace/test-site/package.json .
+COPY ./workspace/test-site/package-lock.json .
+RUN npm install --no-cache
