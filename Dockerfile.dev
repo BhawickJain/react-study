@@ -5,4 +5,5 @@ RUN apk add --no-cache --update \
 WORKDIR /usr/workspace/test-site
 COPY ./workspace/test-site/package.json .
 COPY ./workspace/test-site/package-lock.json .
+RUN npm i -g react-static
 RUN npm install --no-cache
