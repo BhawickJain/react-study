@@ -10,10 +10,10 @@ services:
       # overwrite node_modules directly from host with container
       # enables access to node_modules installation in container
       # creates an empty node_modules folder in host
-      - /usr/workspace/test-site/node_modules
+      - /usr/workspace/node_modules
     working_dir: /usr/workspace
     # prevent container from exiting immediately
     stdin_open: true
     ports:
       - 3000:3000
-    command: npx babel --watch src --out-dir . --presets react-app/prod
+    # command: npx babel --watch src --out-dir . --presets react-app/prod

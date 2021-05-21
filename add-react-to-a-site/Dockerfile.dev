@@ -1,9 +1,7 @@
 FROM alpine:latest
 EXPOSE 3000
 RUN apk add --no-cache --update \
- bash sudo npm tree
+ bash sudo npm tree git
 WORKDIR /usr/workspace/
-RUN npm init -y
-RUN npm install babel-cli@6 babel-preset-react-app@3
-# RUN npm i -g react-static
-# RUN npm install --no-cache
+# RUN npm init -y
+# RUN npm install babel-cli@6 babel-preset-react-app@3
