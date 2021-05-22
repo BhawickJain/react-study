@@ -2,94 +2,66 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 
-class Square extends React.Component {
+class Clock extends React.Component {
+  constructor(props) {
+    super(props);
+    // Adds additional state to props
+    // You can use .state only in the constructor
+    // Everywhere else you setState to trigger ReactDOM
+    this.state = { date: new Date() };
+  }
+
+  // When alive run this function
+  componentDidMount() {
+    this.timeID = setInterval(() => this.tick(), 1000);
+  }
+
+  // When destroyed run this function
+  componentWillUnmount() {
+    clearInterval(this.timeID);
+  }
+
+  // tick forward in time
+  tick() {
+    // Set State allows React DOM to respond
+    this.setState({
+      date: new Date(),
+    });
+  }
+
   render() {
-    return <button className="square">{/* TODO */}</button>;
+    return <span>{this.state.date.toLocaleTimeString()}</span>;
   }
 }
 
-class Board extends React.Component {
-  renderSquare(i) {
-    return <Square />;
+class Greet extends React.Component {
+  constructor(props) {
+    // Super allows the properties in the element to be accessible
+    // and manipulated.
+    super(props);
+    // declare to expect name property in attribute
+    this.state = { name: props.name };
   }
 
-  render() {
-    const status = "Next player: X";
-
-    return (
-      <div>
-        <div className="status">{status}</div>
-        <div className="board-row">
-          {this.renderSquare(0)}
-          {this.renderSquare(1)}
-          {this.renderSquare(2)}
-        </div>
-        <div className="board-row">
-          {this.renderSquare(3)}
-          {this.renderSquare(4)}
-          {this.renderSquare(5)}
-        </div>
-        <div className="board-row">
-          {this.renderSquare(6)}
-          {this.renderSquare(7)}
-          {this.renderSquare(8)}
-        </div>
-      </div>
-    );
-  }
-}
-
-class Game extends React.Component {
-  render() {
-    return (
-      <div className="game">
-        <div className="game-board">
-          <Board />
-        </div>
-        <div className="game-info">
-          <div>
-            {/* status */}
-            <Hello></Hello>
-          </div>
-          <ol>{/* TODO */}</ol>
-        </div>
-      </div>
-    );
-  }
-}
-
-// ========================================
-// insert game component into root div
-
-// Create Hello component which uses Time component
-class Hello extends React.Component {
   render() {
     return (
       <div>
-        <h1>Hello, world!</h1>
+        <h1>Hello, {this.state.name}!</h1>
         <h2>
-          It is <Time></Time>.
+          It is <Clock></Clock>.
         </h2>
       </div>
     );
   }
 }
 
-// Time component is still rendered even when declared after Hello
-class Time extends React.Component {
-  render() {
-    return <span className="time">{new Date().toLocaleTimeString()}</span>;
-  }
-}
+ReactDOM.render(<Greet name="Nirbhey" />, document.getElementById("root"));
 
-function tick() {
-  const element = <Time></Time>;
-  // ReactDOM.render(element, document.getElementById("root"));
-  // You are only supposed to call it once however.
-  ReactDOM.render(<Game />, document.getElementById("root"));
-}
-
-setInterval(tick, 1000);
-
-// Render must the last bit however!
-ReactDOM.render(<Game />, document.getElementById("root"));
+// EXPLANATION
+// ReactDom.render triggers the Greet component which runs its constructor. This passes
+// the name property from the element. When rendering Greet is finds that it need a the
+// Clock component. This triggers its constructor which initializes the new Date object.
+// Upon creation, componentDidMount() is triggered, which runs a timeID function with
+// setInterval. That triggers the tick() function which tells ReactDOM to watch out for
+// the date property to be changing. The tick instantiates a new Date object which holds
+// the fresh time.
