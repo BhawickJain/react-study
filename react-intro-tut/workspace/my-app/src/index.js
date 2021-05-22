@@ -82,10 +82,10 @@ class Greet extends React.Component {
 function App() {
   return (
     <div>
-      <Greet name="Nirbhey" surname="Jain" />
-      <Greet name="Fran" />
-      <Greet name="Bhawick" />
-      <Greet name="Dom" />
+      <Greet name="Tom" surname="Hanks" />
+      <Greet name="Frank" />
+      <Greet name="James" />
+      <Greet name="Dom" surname="Yu" />
     </div>
   );
 }
