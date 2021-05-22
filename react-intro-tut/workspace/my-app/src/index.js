@@ -48,7 +48,13 @@ class Greet extends React.Component {
     // renders surname prop is available otherwise (||) give ""
     return (
       <div>
-        <h1>Hello, {this.writeName(this.props.name, this.props.surname)}!</h1>
+        <h1>
+          Hello,{" "}
+          {this.props.surname
+            ? this.props.name + " " + this.props.surname
+            : this.props.name}
+          !
+        </h1>
         <h2>
           It is <FormattedDate date={this.state.date} />
         </h2>
