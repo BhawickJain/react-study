@@ -49,3 +49,11 @@ ul {
 .game-info {
   margin-left: 20px;
 }
+
+.time {
+  color: firebrick;
+  background-color: ghostwhite;
+  border-radius: 5px;
+  font-family: monospace;
+  padding: 0px 5px;
+}
