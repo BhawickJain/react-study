@@ -85,6 +85,7 @@ class Time extends React.Component {
 function tick() {
   const element = <Time></Time>;
   // ReactDOM.render(element, document.getElementById("root"));
+  // You are only supposed to call it once however.
   ReactDOM.render(<Game />, document.getElementById("root"));
 }
 
