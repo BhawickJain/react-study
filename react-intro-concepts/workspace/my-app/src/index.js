@@ -8,7 +8,37 @@ const BoilingVerdict = (props) => {
   }
   return <p>The water would not boil.</p>;
 };
-ReactDOM.render(
-  <BoilingVerdict celcius="100" />,
-  document.getElementById("root")
-);
+
+class Calculator extends React.Component {
+  constructor(props) {
+    super(props);
+    this.handleChange = this.handleChange.bind(this);
+    this.state = { temperature: "" };
+  }
+
+  handleChange(e) {
+    this.setState({ temperature: e.target.value });
+  }
+
+  render() {
+    const temperature = this.state.temperature;
+    return (
+      // uses a fragment to group sibling elements
+      <>
+        <fieldset>
+          <legend> Enter temperature in Celcius: </legend>
+          <input value={temperature} onChange={this.handleChange} />
+          <BoilingVerdict celcius={temperature} />
+        </fieldset>
+        <></>
+        <fieldset>
+          <legend> Enter temperature in Celcius: </legend>
+          <input value={temperature} onChange={this.handleChange} />
+          <BoilingVerdict celcius={temperature} />
+        </fieldset>
+      </>
+    );
+  }
+}
+
+ReactDOM.render(<Calculator />, document.getElementById("root"));
