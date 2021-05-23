@@ -94,6 +94,8 @@ function ActionLink() {
 function ManyHello(props) {
   const Names = props.names;
   const namesRender = Names.map(({ name, surname, id }) => (
+    // key allows efficient updates in React, useful in frequent updates
+    // can also in a last resort use the Array's index, but is can be fooled.
     <lu key={id}>
       <Greet name={name} surname={surname} />
     </lu>
