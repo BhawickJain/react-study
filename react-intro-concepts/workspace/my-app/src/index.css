@@ -24,30 +24,3 @@ div > * {
 .hot {
   color: firebrick;
 }
-
-textarea,
-input {
-  padding: 5px;
-  line-height: 1.5;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  /* box-shadow: 1px 1px 1px #999; */
-}
-
-textarea {
-  width: 500px;
-  height: 800px;
-}
-
-.submit {
-  width: 80px;
-  margin: 0px 5px;
-}
-
-.label {
-  margin: 0px 5px;
-}
-
-.EssayFormSubmit {
-  margin: 10px 0px;
-}
