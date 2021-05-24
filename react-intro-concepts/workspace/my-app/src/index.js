@@ -27,7 +27,7 @@ class NameForm extends React.Component {
     return (
       <form onSubmit={this.handleSubmit}>
         <label>
-          Name:
+          <span className="label">Name:</span>
           <input
             type="text"
             // displayed value taken from form state
@@ -35,7 +35,41 @@ class NameForm extends React.Component {
             onChange={this.handleChange}
           />
         </label>
-        <input type="submit" value="Submit" />
+        <input className="submit" type="submit" value="Submit" />
+      </form>
+    );
+  }
+}
+
+class EssayForm extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      value: "Please write an essay about your favorite DOM Element.",
+    };
+
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  handleChange(e) {
+    this.setState({ value: e.target.value });
+  }
+
+  handleSubmit(e) {
+    alert("An essay was submitted " + this.state.value);
+    e.preventDefault();
+  }
+
+  render() {
+    return (
+      <form>
+        <label>
+          <textarea value={this.state.value} onChange={this.handleChange} />
+        </label>
+        <div className="EssayFormSubmit">
+          <input className="submit" type="submit" value="Submit" />
+        </div>
       </form>
     );
   }
@@ -44,6 +78,7 @@ class NameForm extends React.Component {
 ReactDOM.render(
   <div>
     <NameForm />
+    <EssayForm />
   </div>,
   document.getElementById("root")
 );
