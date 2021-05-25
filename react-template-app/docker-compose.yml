@@ -4,6 +4,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.dev
+    cap_add:
+      - SYS_ADMIN
     volumes:
       # overwrites node_modules installation with empty folder
       - ./workspace:/usr/workspace
