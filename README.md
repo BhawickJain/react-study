@@ -16,3 +16,4 @@ All things react and related, including throw-away examples and attempts
 [[gh-react-tut](https://github.com/markerikson/react-redux-links/blob/master/react-tutorials.md)] React Tutorials — Mark Erikson (React-redux-links)  
 [[parlapiano-react](https://obedparla.com/code/a-visual-guide-to-react-mental-models/)] A Visual Guide to React Mental Models — Obed Parlapiano
 [[wieruch-js-fun](https://www.robinwieruch.de/javascript-fundamentals-react-requirements)] Js fundamentals before learning React — Robin Wieruch  
+[[monicawoj-d3hooks](https://github.com/monicawoj/react-advanced-london-d3-react-deck)] Hooked on d3
