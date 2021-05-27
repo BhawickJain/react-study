@@ -1,0 +1,26 @@
+* {
+  font: 14px Futura, "Century Gothic", sans-serif;
+  margin: 10px;
+}
+
+ol,
+ul {
+  padding-left: 30px;
+}
+
+div {
+  width: 600px;
+  text-align: center;
+  margin: auto;
+}
+
+div > * {
+  margin: 20px 0px;
+  padding: 15px 0px;
+  border-color: grey;
+  border-width: 1px;
+}
+
+.hot {
+  color: firebrick;
+}
