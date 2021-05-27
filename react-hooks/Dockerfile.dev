@@ -1,7 +1,7 @@
 FROM alpine:latest
 EXPOSE 3000
 RUN apk add --no-cache --update \
- bash sudo npm tree git
+ bash sudo npm tree yarn
 WORKDIR /usr/workspace/my-app
 COPY /workspace/my-app/package.json /usr/workspace/my-app/package.json
 # COPY /workspace/my-app/package-lock.json /usr/workspace/my-app/package-lock.json
