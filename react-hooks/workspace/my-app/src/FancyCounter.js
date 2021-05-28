@@ -1,32 +1,8 @@
 import React, { useState, useEffect, useContext } from "react";
-
-const themes = {
-  light: {
-    background: "#f5f9e9",
-    fontColor: "#000000",
-    buttonColor: "#E6EBE0",
-  },
-  dark: {
-    background: "#1d3557",
-    fontColor: "#f1faee",
-    buttonColor: "#457b9d",
-  },
-};
-const ThemeContext = React.createContext(themes.dark);
-
-const ButtonOne = (props) => {
-  const theme = useContext(ThemeContext);
-  return (
-    <div>
-      <button
-        onClick={props.onClick}
-        style={{ background: theme.buttonColor, color: theme.fontColor }}
-      >
-        {props.name}
-      </button>
-    </div>
-  );
-};
+import { themes, ThemeContext } from "./themes";
+import { Button } from "./button";
+import CounterControls from "./CounterControls";
+import Help from "./Help";
 
 const useCount = () => {
   const [count, setCount] = useState(0);
@@ -36,7 +12,7 @@ const useCount = () => {
 const useDocumentTitle = (value) => {
   useEffect(() => {
     document.title = value;
-  });
+  }, [value]);
 };
 
 const Canvas = (props) => {
@@ -58,36 +34,26 @@ const useDarkMode = () => {
   return [darkMode, setDarkMode];
 };
 
-const Example = () => {
+const FancyCounter = () => {
   const [count, setCount] = useCount();
   const [darkMode, setDarkMode] = useDarkMode();
   useDocumentTitle(`You clicked ${count} times`);
+
   return (
     <ThemeContext.Provider value={darkMode ? themes.dark : themes.light}>
       <Canvas>
-        <Title value={`You clicked ${count} times`} />
-        <ButtonOne
-          name="add"
-          onClick={() => {
-            setCount(count + 1);
-          }}
-        />
-        <ButtonOne
-          name="minus"
-          onClick={() => {
-            setCount(count - 1);
-          }}
-        />
-        <ButtonOne
-          name={darkMode ? "🌖" : "🌒"}
-          onClick={() => {
-            setDarkMode(darkMode === true ? false : true);
-          }}
-        />
+        <div className="middle">
+          <Title value={`You clicked ${count} times`} />
+          <CounterControls
+            countState={{ count, setCount }}
+            darkState={{ darkMode, setDarkMode }}
+          />
+          <Help />
+        </div>
       </Canvas>
     </ThemeContext.Provider>
   );
 };
-export default Example;
+export default FancyCounter;
 
 // Example of how two elements are being handled at the same time with shared state.
