@@ -1,6 +1,14 @@
 * {
   font: 14px Futura, "Century Gothic", sans-serif;
-  margin: 10px;
+  transition: background-color 600ms, color, 600ms;
+  /* margin: 10px; */
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
 }
 
 ol,
@@ -9,12 +17,12 @@ ul {
 }
 
 div {
-  width: 600px;
+  /* width: 600px; */
   text-align: center;
   margin: auto;
 }
 
-div > * {
+div > button {
   margin: 20px 0px;
   padding: 15px 0px;
   border-color: grey;
@@ -23,4 +31,15 @@ div > * {
 
 .hot {
   color: firebrick;
+}
+
+button {
+  width: 100px;
+  border-radius: 10px;
+  border-style: none;
+}
+
+p {
+  margin: 0px;
+  padding: 15px 0px;
 }
