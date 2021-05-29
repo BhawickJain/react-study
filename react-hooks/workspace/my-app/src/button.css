@@ -5,9 +5,33 @@ button {
   border-style: none;
   margin: 10px;
   font-size: 1em;
+  background-color: #e1e1e1;
 }
 
 button:focus,
 button:hover {
-  background-color: brown;
+  background-color: #cdcdcd;
+}
+
+button:active {
+  background-color: #bdbdbd;
+}
+
+.dark button {
+  width: 50px;
+  height: 30px;
+  border-radius: 5px;
+  border-style: none;
+  margin: 10px;
+  font-size: 1em;
+  background-color: #457b9d;
+}
+
+.dark button:focus,
+.dark button:hover {
+  background-color: #386480;
+  color: #ffffff;
+}
+.dark button:active {
+  background-color: #2b4e64;
 }

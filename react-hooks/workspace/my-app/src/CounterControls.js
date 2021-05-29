@@ -8,6 +8,13 @@ const CounterControls = (props) => {
   return (
     <>
       <Button
+        name="reset"
+        keyCode="r"
+        handleClick={() => {
+          setCount(0);
+        }}
+      />
+      <Button
         name="more"
         keyCode="k"
         handleClick={() => {

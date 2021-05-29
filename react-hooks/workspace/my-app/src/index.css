@@ -1,7 +1,8 @@
 * {
   font: 14px Futura, "Century Gothic", sans-serif;
   transition: background-color 500ms, color 500ms;
-  /* margin: 10px; */
+  background-color: #ffffff;
+  color: #000000;
 }
 
 body {
@@ -13,25 +14,19 @@ body {
   align-items: centre;
 }
 
-ol,
-ul {
-  padding-left: 30px;
-}
-
 div {
-  /* width: 600px; */
   text-align: center;
-  /* align-items: center; */
   margin: auto;
-}
-
-p {
-  margin: 0px;
-  padding: 15px 0px;
 }
 
 .helper {
   font-family: monospace;
   font-size: 0.5em;
   margin-top: 25px;
+}
+
+.dark,
+.dark * {
+  color: #f1faee;
+  background-color: #1d3557;
 }

@@ -1,11 +1,11 @@
-import React, { useContext } from "react";
-import { ThemeContext } from "./themes";
+import Key from "./key";
 
 const Help = () => {
-  const theme = useContext(ThemeContext);
   return (
-    <div className="helper" style={{ color: theme.fontColor }}>
-      keyboard shortcuts: more (K), less (J), darkmode (Space)
+    <div className="helper">
+      keyboard shortcuts: more <Key value="k" />, less <Key value="j" />, reset{" "}
+      <Key value="r" />
+      , darkmode <Key value="space" />
     </div>
   );
 };
