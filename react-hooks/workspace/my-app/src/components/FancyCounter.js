@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
+import { Title, useDocumentTitle } from "./Title";
 import CounterControls from "./CounterControls";
+import Canvas from "./Canvas";
 import Help from "./Help";
-import "./index.css";
+import "../index.css";
 
 const useCount = () => {
   const [count, setCount] = useState(0);
@@ -11,20 +13,6 @@ const useCount = () => {
 const useDarkMode = () => {
   const [darkMode, setDarkMode] = useState(false);
   return [darkMode, setDarkMode];
-};
-
-const useDocumentTitle = (value) => {
-  useEffect(() => {
-    document.title = value;
-  }, [value]);
-};
-
-const Canvas = (props) => {
-  return <body className={props.className}>{props.children}</body>;
-};
-
-const Title = (props) => {
-  return <p>{props.value}</p>;
 };
 
 const FancyCounter = () => {

@@ -17,7 +17,7 @@ const Button = (props) => {
       console.log("remove keydown listener");
       window.removeEventListener("keydown", handleKeydown);
     };
-  });
+  }, [props]);
 
   return (
     <button className={props.className} onClick={props.handleClick}>
