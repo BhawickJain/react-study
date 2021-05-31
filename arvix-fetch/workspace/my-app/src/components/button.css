@@ -1,0 +1,22 @@
+#darkMode {
+  font-size: 2em;
+  background: none;
+  border-style: none;
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  padding: 0.8em;
+  text-shadow: 0px 0px 20px rgb(219, 217, 196);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: text-shadow 500ms;
+}
+
+#darkMode:hover,
+#darkMode:active {
+  text-shadow: 0px 0px 25px rgb(255, 255, 255, 1);
+}

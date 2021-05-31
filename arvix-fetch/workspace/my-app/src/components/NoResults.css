@@ -1,0 +1,11 @@
+.NoResults {
+  text-align: center;
+  padding: 0.1em;
+  margin: 0.1em;
+  /* margin-left: 13em; */
+}
+
+h3 {
+  font-size: 0.7em;
+  color: grey;
+}

@@ -1,0 +1,39 @@
+* {
+  font: 38px Futura, "Century Gothic", sans-serif;
+  font-size: 1em;
+  margin: 0em;
+  padding: 0px;
+  box-sizing: border-box;
+  transition: text-shadow 500ms background-color 500ms, color 500ms;
+}
+
+section {
+  padding: 0rem;
+  margin: auto;
+  height: fit-content;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+section * {
+  padding: 0.5rem;
+}
+
+.dark,
+.dark * {
+  color: #f1faee;
+  background-color: #1d3557;
+}
+
+.hasResults {
+  margin-top: 7%;
+  /* padding-right: 10%; */
+}
+
+form {
+  width: max-content;
+}

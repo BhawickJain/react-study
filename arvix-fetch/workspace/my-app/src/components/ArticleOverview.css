@@ -1,0 +1,33 @@
+.ArticleOverview {
+  text-align: left;
+  width: 75vw;
+  height: auto;
+  word-wrap: break-word;
+  padding: 1em;
+  margin: 1em;
+  box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+}
+
+.dark .ArticleOverview,
+.dark .ArticleOverview * {
+  background-color: #14253e;
+}
+
+.ArticleOverview p {
+  padding-top: 0px;
+  margin-top: 0.5em;
+  font-size: 0.5em;
+}
+.ArticleOverview h2 {
+  font-size: 0.7em;
+}
+.ArticleOverview h1 {
+  font-size: 1em;
+}
+
+.ArticleOverview .abstract {
+  padding-bottom: 5px;
+  margin-bottom: 0px;
+  text-decoration: underline;
+  text-underline-offset: 0.4em;
+}
